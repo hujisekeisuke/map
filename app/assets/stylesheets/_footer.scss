@@ -1,0 +1,16 @@
+.footer{
+  height: 60px;
+  background-color:yellow;
+  display: flex;
+  justify-content: space-around;
+  &__urgent{
+    border: solid 1px black;
+    border-radius: 40px;
+    padding: 20px;
+  }
+  &__traffic{
+    border-radius: 40px;
+    border: 1px solid black;
+    padding: 20px;
+  }
+}
