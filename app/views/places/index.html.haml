@@ -1,0 +1,28 @@
+.place
+  .place__all
+    観光地
+  .place__home
+    = link_to root_path do
+      HOME
+.all
+  .all__top
+    .all__top__history
+      = link_to "#" do
+        歴史・文化
+    .all__top__active
+      = link_to "#" do
+        遊び場
+  .all__under
+    .all__under__shopping
+      = link_to "#" do
+        買い物
+    .all__under__hotel
+      = link_to "#" do
+        旅館
+.footers
+  .footers__urgent
+    = link_to urgents_path do
+      緊急
+  .footers__traffic
+    = link_to traffics_path do
+      交通

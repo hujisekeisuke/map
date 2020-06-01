@@ -1,0 +1,28 @@
+.food
+  .food__all
+    食事処
+  .food__home
+    = link_to root_path do
+      HOME
+.all
+  .all__top
+    .all__top__japan
+      = link_to "#" do
+        和食
+    .all__top__western
+      = link_to "#" do
+        洋食
+  .all__under
+    .all__under__noodles
+      = link_to "#" do
+        麺類
+    .all__under__cafe
+      = link_to "#" do
+        カフェ・スイーツ
+.footers
+  .footers__urgent
+    = link_to urgents_path do
+      緊急
+  .footers__traffic
+    = link_to traffics_path do
+      交通

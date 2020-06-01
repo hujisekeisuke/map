@@ -1,0 +1,2 @@
+module UrgentsHelper
+end

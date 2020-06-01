@@ -1,0 +1,55 @@
+.urgent{
+  height: 80px;
+  background-color: red;
+  line-height: 80px;
+  font-size: 50px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &__all{
+    font-size: 50px;
+    font-weight: bold;
+  }
+  &__home{
+    height: 50px;
+    font-size: 20px;
+    border: solid 1px;
+    margin: 10px;
+    line-height: 50px;
+    a{
+      color:black;
+      text-decoration: none;
+    }
+  }
+}
+.urgents{
+  background-color:white;
+  height: calc(100vh - 80px);
+  padding: 10px;
+  text-align: center;
+  &__police{
+    height: calc(100% / 3);
+    font-size: 50px;
+    border: solid 1px;
+    margin-bottom: 10px;
+    line-height: 4;
+  }
+  &__ambulance{
+    height: calc(100% / 3);
+    font-size: 50px;
+    border: solid 1px;
+    margin-bottom: 10px;
+    line-height: 4;
+  }
+  &__fighting{
+    height: calc(100% / 3);
+    font-size: 50px;
+    border: solid 1px;
+    line-height: 4;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+}
