@@ -10,6 +10,17 @@
     font-size: 50px;
     font-style: italic;
   }
+  &__new{
+    height: 70px;
+    font-size: 20px;
+    border: solid 3px rgb(241, 121, 8);
+    border-radius: 20px;
+    line-height: 70px;
+    a{
+      color:white;
+      text-decoration: none;
+    }
+  }
   &__home{
     height: 50px;
     font-size: 20px;
